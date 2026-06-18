@@ -57,3 +57,27 @@ Therefore, Ordered condition checks are important.
 
 Many classification problems fail because conditions are checked in the wrong order. Always think about which conditions are most specific and which are more general.
 
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Assignment 04 - Secure Company Login
+
+### Concepts Practiced
+
+* Nested conditions
+* Validation hierarchy
+* Authentication logic
+* Dependent checks
+
+### Key Learning
+
+Nested conditions are useful when one validation should only occur after a previous validation succeeds. If previous validation fails then there's no point in checking further conditions as result would be same.
+
+### Interview Insight
+
+Authentication systems often follow a chain of dependent validations. Avoid checking later conditions when earlier validations have already failed.
+
+### Mistake & Learning Takeaway
+
+My first implementation of this code checked password and account status after the username validation failed (I did not consider using else block for "if password != "python123"). 
+This taught me that nested conditions should be placed inside the success path of the previous validation, not inside the failure path and this is possible by using else which works on opposite terms of if condition.
+
