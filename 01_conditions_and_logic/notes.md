@@ -100,5 +100,25 @@ Not all problems require nested conditions. When multiple conditions are indepen
 
 In industries we must not always use nested conditions. First determine whether conditions are dependent or independent before choosing a solution structure.
 
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Assignment 06 - Electricity Bill Calculator
+
+### Concepts Practiced
+
+* Conditional ranges
+* Multi-branch decision making
+* Bill calculation
+* Input validation
+
+### Key Learning
+
+When multiple conditions can match the same value, the order of conditions becomes critical. More specific conditions should usually be checked before broader conditions.
+
+### Interview Insight
+
+When designing classification systems, always ask whether conditions overlap. If they do, condition order must be carefully planned.
+
+
 
 
