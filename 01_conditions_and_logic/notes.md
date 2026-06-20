@@ -81,3 +81,24 @@ Authentication systems often follow a chain of dependent validations. Avoid chec
 My first implementation of this code checked password and account status after the username validation failed (I did not consider using else block for "if password != "python123"). 
 This taught me that nested conditions should be placed inside the success path of the previous validation, not inside the failure path and this is possible by using else which works on opposite terms of if condition.
 
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Assignment 05 - Scholarship Eligibility System
+
+### Concepts Practiced
+
+* Independent conditions
+* Logical AND operator
+* Input validation
+* Eligibility checking
+
+### Key Learning
+
+Not all problems require nested conditions. When multiple conditions are independent and must all be satisfied, they can often be combined using logical operators.
+
+### Interview Insight
+
+In industries we must not always use nested conditions. First determine whether conditions are dependent or independent before choosing a solution structure.
+
+
+
