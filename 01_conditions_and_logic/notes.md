@@ -119,6 +119,28 @@ When multiple conditions can match the same value, the order of conditions becom
 
 When designing classification systems, always ask whether conditions overlap. If they do, condition order must be carefully planned.
 
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Assignment 07 - Employee Bonus Eligibility System
+
+### Concepts Practiced
+
+* Combination-based decisions
+* Logical AND operator
+* Multi-level eligibility checking
+* Validation handling
+
+### Key Learning
+
+- Multiple Boolean conditions combine to produce different outcomes, and the order of those outcomes matters when conditions overlap.
+- Some outcomes depend on multiple conditions being true at the same time. Combining conditions correctly is essential for implementing business rules.
+
+### Interview Insight
+
+When multiple categories exist, check the most specific and highest-priority outcomes first. Otherwise broader conditions may capture values that belong to higher categories.
+IN this assignment highest category was (GOLD BONUS) and lowest was (BRONZE BONUS).
+
+
 
 
 
