@@ -140,6 +140,30 @@ When designing classification systems, always ask whether conditions overlap. If
 When multiple categories exist, check the most specific and highest-priority outcomes first. Otherwise broader conditions may capture values that belong to higher categories.
 IN this assignment highest category was (GOLD BONUS) and lowest was (BRONZE BONUS).
 
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Assignment 08 - Employee Promotion System
+
+### Concepts Practiced
+
+* Multi-level validation
+* Business rule prioritization
+* Compound conditions
+* Decision hierarchy
+
+### Key Learning
+
+Complex business rules can be implemented using only conditional statements, but the code quickly becomes difficult to read, maintain and process as the number of requirements increases which satisfies many conditions at once and at same time can reject many conditions.
+
+### Mistake & Learning Takeaway
+
+I learned that solving "exactly one requirement is missing" using only `if-elif-else` leads to very long conditions. This highlighted the limitation of relying only on conditions and showed why later Python concepts such as variables, counters, and functions are important for writing cleaner code.
+
+### Interview Insight
+
+Before writing code, identify the business rules, their priority, and whether conditions overlap. Clear logic design is more important than writing the `if` statements themselves.
+
+
 
 
 
