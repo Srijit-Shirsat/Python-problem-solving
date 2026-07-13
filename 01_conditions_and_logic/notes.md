@@ -163,6 +163,33 @@ I learned that solving "exactly one requirement is missing" using only `if-elif-
 
 Before writing code, identify the business rules, their priority, and whether conditions overlap. Clear logic design is more important than writing the `if` statements themselves.
 
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Assignment 09 - Bank Loan Approval System
+
+### Concepts Practiced
+
+* Multi-level business rule evaluation
+* Compound conditions using `and` and `or`
+* Validation before business logic
+* Decision priority
+
+### Key Learning
+
+A single business decision may depend on multiple independent conditions. Breaking the problem into validation first and business rules second makes the logic easier to understand.
+
+### Assumptions Made
+
+Since the assignment did not specify numerical thresholds for "high income", "excellent credit score", and "poor credit score", I chose reasonable values consistently throughout the solution. In a real interview or production system, these values will be clarified with hiher authorities before implementation.
+
+### Interview Insight
+
+Always separate input validation from business logic. Even when assumptions are made during practice, keep them consistent and clearly document them.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
 
 
 
